@@ -32,8 +32,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-#for viewing errors in a clear way
-gem 'better_errors', '~> 2.4'
+
 #for bulma css
 gem 'bulma-rails', '~> 0.6.1'
 
@@ -57,6 +56,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'guard', '~> 2.14'
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+  #for viewing errors in a clear way
+  gem 'better_errors', '~> 2.4'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
